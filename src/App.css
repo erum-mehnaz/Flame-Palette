@@ -1,0 +1,485 @@
+#logo img{
+  width: 3.5rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-left: 2rem;
+  margin-top: 5px;
+}
+.header{
+  display: flex;
+  padding: 0.2rem;
+  background-color: #dce2a9;
+  height: 60px;
+}
+#headerList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 87%; 
+}
+#headerList a {
+  color: #d8832f;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-weight: 600;
+  /* margin-top: 8px;  */
+}
+#headerList a:hover {
+  color: white;
+  background-color: #d89149;
+  font-weight: 600;
+  transition: 0.8s;
+  box-shadow: 2px 2px 12px #777575;
+}
+.dropdown{
+  position: absolute;
+}
+.dropdownOption{
+  display: flex;
+  margin-top: 9px;
+  cursor: pointer; 
+  color: #d37210
+}
+.dropdownOption:last-child {
+  background-color: #ffffffe0; 
+  padding: 0.6rem;
+  border-radius: 8px;
+ 
+}
+.dropdownOption i{
+  margin-top: 3px;
+  font-size: 1.1rem;
+  margin-right: 5px;
+  color: black;
+}
+.dropdownOption p {
+  margin: auto;
+  margin-left: 3px;
+  font-weight: 700;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  background: #ccd5ae;
+  padding:  3rem 6rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.modalContent p {
+  /* margin-bottom: 2rem; */
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 2rem 0;
+
+}
+.modalContent i{
+  font-size: 4rem;
+  color:#b87235 ;
+}
+
+.modalContent button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  width: 150px;
+  height: 59px;
+  color: #fff;
+  background-color: #bc6c25;
+  border-radius: 25px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+/* Home */
+#homeContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #faedcd;
+}
+#bannerImg img{
+  margin-top: 1rem;
+  width: 90rem;
+  height: 40rem;
+}
+
+#cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  margin: 1rem;
+  background-color: #d4a373;
+}
+.card img{
+  width: 18rem;
+  height: 15rem;
+  cursor: pointer;
+}
+.description{
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+}
+.price{
+  margin-top: -1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-align: center;
+}
+.card button{
+  padding: 0.9rem;
+  width: 7rem;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+  font-size: 1rem;  
+}
+.card button:hover{
+  color: white;
+  background-color: #e28930;
+  transition: 0.8s;
+
+}
+ /* About */
+ #aboutContainer{
+  display: flex;
+  justify-content: center;
+  padding: 2.24rem;
+  background-color: #fdfbeb;
+ }
+ #aboutDesc{
+  width: 60%;
+  padding: 2rem;
+  justify-content: center;
+  margin-right: 2rem;
+ }
+ #aboutDesc h1{
+  text-align: center;
+  font-size: 3rem;
+  color: #e06a09;
+ }
+ #aboutDesc h1:hover{
+  color: #944b0f;
+  transition: 1s;
+ }
+ #aboutDesc p{
+  color: #bc6c25;
+  font-size: 1.2rem;
+ }
+#aboutImg img{
+ width: 25rem;
+ height: 35.2rem;
+
+ }
+ /* Contact */
+ #contactContainer{
+  display: flex;
+  justify-content: center;
+  padding: 4.2rem; 
+  background-color: #fdfbeb;
+ }
+ #contactForm{
+  padding:  3rem 10rem;
+  margin-right: 2rem;
+ }
+ #contactForm h2{
+  text-align: center;
+  font-size: 3rem;
+  color: #e06a09;
+ }
+ #contactForm h2:hover{
+  color: #944b0f;
+  transition: 1s;
+ }
+ #contactForm label{
+  font-size: 1.2rem;
+  color: #854f19;
+  font-weight: 500;
+ }
+ #contactForm input{
+  padding: 0.8rem 2rem;
+  margin-bottom: 10px;
+  border: 2px solid #dd8c3b;
+  border-radius: 6px;
+ }
+#contactForm textarea{
+  padding: 2rem 4rem;
+  margin-bottom: 10px;
+  border: 2px solid #dd8c3b;
+  border-radius: 6px;
+}
+#contactForm button{
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f1861a;
+  margin-left: 6rem;
+  background-color: #e5eccc;
+}
+#contactForm button:hover {
+  color: white;
+  background-color: #d89149;
+  font-weight: 600;
+  transition: 0.8s;
+}
+
+ /* footer */
+footer {
+  background-color: #a3b18a;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  
+}
+.wrapper {
+  flex: 1;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin: 2px 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Login SignUp  */
+#loginSignUpContainer{
+  display: flex;
+  flex-direction: column;
+  background: #ccd5ae;
+  padding-bottom: 30px;
+  width: 50%;
+}
+#loginSignUpHeader{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px
+}
+#text{
+  color: #bc6c25;
+  font-size: 3rem;
+  font-weight: 700;
+}
+#underLine{
+  width: 60px;
+  height: 6px;
+  background-color: #bc6c25;
+  border-radius: 9px;
+}
+#allInputs{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.input{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 70%;
+  height: 4rem;
+  background-color: #eaeaea;
+  border-radius: 6px;
+}
+.input img{
+  width: 2rem;
+  height: 2rem;
+  margin: 0 2rem;
+}
+.input input{
+  height: 4rem;
+  width: 30rem;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 1rem;
+}
+.input i{
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+#submitContainer1{
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin: 3rem auto;
+}
+#submitContainer2{
+  display: flex;
+  gap: 2.5rem;
+  margin: 3rem auto;
+}
+#loginStyle{
+  margin-top: -3rem;
+  font-weight: 700;
+  
+}
+#loginStyle button{
+  border: none;
+  background-color: transparent;
+  font-weight: 800;
+  color: #bc6c25;
+  padding: 0.3rem;
+  border-radius: 8px;
+  
+}
+#loginStyle button:hover{
+  color: rgb(78, 74, 74);
+  /* background-color: white; */
+  transition: 1s;
+  
+}
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 59px;
+  color: #fff;
+  background-color: #bc6c25;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.disabled{
+  background-color: #EAEAEA;
+  color: #676767;
+}
+.error{
+  margin-left: 27%;
+  color: red;
+  margin-top: -1.5rem;
+  font-size: 0.8rem;
+}
+#loginSignUpStyle{
+  position: fixed; 
+  z-index: 1;
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0,0,0,0.7); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#forgetPassBtn{
+  width: 20%;
+  margin-left: 24%;
+  margin-top: -1rem;
+  border: none;
+  background: transparent;
+  font-weight: 600;
+}
+#forgetPassBtn:hover{
+  text-decoration: underline;
+  color: #ca6a15;
+}
+#updateBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 59px;
+  color: #fff;
+  background-color: #bc6c25;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 30px auto;
+  
+}
+.prodDetail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.prodDetail h1{
+  color: #ac7c4d;
+  border: 2px solid transparent;
+  padding: 1rem;
+  border-radius: 20px;
+}
+.prodDetail h1:hover{
+  transition: 0.5s;
+  background-color:#ca751f ;
+  box-shadow: 2px 2px 8px #000000;
+  color: white;
+}
+.desContainer{
+  display: flex;
+  justify-content: center;
+}
+.desContainer p{
+  width: 45%;
+  font-size: 1.4rem;
+  
+}
+.desContainer img{
+  width: 30rem;
+  height: 30rem;
+  margin-left: 2rem;
+}
+.desContainer h3{
+ margin-top: -1.5rem;
+ color: #d3771a;
+}
+.prodPrice{
+ display: flex;
+ flex-direction: column;
+ margin-left: -65%;
+}
+.prodPrice button{
+  padding:  1rem 0.5rem;
+  width: 8rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color:#d3771a;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 2rem;
+}
+.prodPrice button:hover{
+  background-color: #d3771a;
+  color: white ;
+  transition: 0.9s;
+}
+
+
